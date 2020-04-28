@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Scissors, Paper, Stone</title>
+  </head>
+  <body>
+    <header>
+      <h1>Scissors, Paper, Stone</h1>
+    </header>
+    <div class="game-container">
+      <div class="player-zone">
+        <div class="player">
+          <div class="health-bar">
+            <img class="heart" src="img/heart.png" alt="heart" />
+            <img class="heart" src="img/heart.png" alt="heart" />
+            <img class="heart" src="img/heart.png" alt="heart" />
+          </div>
+          <div class="player-img"></div>
+        </div>
+        <div class="player-speech-bubble">
+          <span
+            class="player-speech-content remove-speech"
+            data-speech=""
+          ></span>
+        </div>
+      </div>
+      <div id="restartTimer"></div>
+      <div class="enemy-zone">
+        <div class="enemy-speech-bubble">
+          <span class="enemy-speech-content remove-speech" data-speech=""></span>
+        </div>
+        <div class="enemy">
+          <div class="health-bar">
+            <img class="heart" src="img/heart.png" alt="heart" />
+            <img class="heart" src="img/heart.png" alt="heart" />
+            <img class="heart" src="img/heart.png" alt="heart" />
+          </div>
+          <div class="enemy-img"></div>
+        </div>
+      </div>
+    </div>
+    <div class="divider"><p data-ogText="Choose Your Hand">Choose Your Hand</p></div>
+    <div class="player-choices-container">
+      <span data-hand="scissors">Scissors</span>
+      <span data-hand="paper">Paper</span>
+      <span data-hand="stone">Stone</span>
+    </div>
+        <script src="script.js"></script>
+  </body>
+</html>
