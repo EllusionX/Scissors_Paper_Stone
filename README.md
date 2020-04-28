@@ -2,7 +2,7 @@
 A web Scissors_Paper_Stone Game
 
 ### About the Project (Status: Complete)
-This is a small project of Scissors_Paper_Stone AKA Rock_Paper_Scissors. I code it without researching much on how to create a game with HTML, CSS and JavaScript. I used what I have learn and started creating it. 
+This is a small project of Scissors_Paper_Stone AKA Rock_Paper_Scissors. I code it without researching much on how to create a proper game with HTML, CSS and JavaScript. I used what I have learn and started creating it. 
 
 
 ### References
